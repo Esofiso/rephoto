@@ -1,16 +1,19 @@
-# rephoto
+# RePhoto
 
-A new Flutter project.
+A Flutter rephotography application designed to reshoot past photos from the exact same angle, location, and perspective.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Overlay an imported reference photo onto the live camera preview with adjustable opacity.
+- Converts the reference image to high-contrast black & white for precise edge alignment.
+- Switch between device cameras (ultra-wide / wide) with a dedicated zoom slider.
+- Compare original and recreated photos using an interactive split-screen slider.
+- Color-coded tracking for photo series:
+  - 🟡 **Yellow:** 1 photo (reference only)
+  - 🟢 **Green:** 2 photos (pair completed)
+  - 🟣 **Purple:** 3+ photos (time series)
+- Direct gallery saving, multi-select deletion (protecting original photos), and native sharing.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
